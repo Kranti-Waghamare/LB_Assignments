@@ -19,9 +19,11 @@ int LargestNumber(int Arr[], int iLength)
     {
         if(Arr[iCnt] > iMax)
         {
-            return Arr[iCnt];
+            iMax =  Arr[iCnt];
         }
     }
+
+    return iMax;
 }
 
 
